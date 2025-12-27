@@ -1,8 +1,8 @@
-Text Recognition and Highlighting using EasyOCR and OpenCV
+**Text Recognition and Highlighting using EasyOCR and OpenCV**
 
 This project is a simple demonstration of how to use the EasyOCR and OpenCV (cv2) libraries to detect and read text from an image, then highlight the detected text by drawing bounding boxes and writing the recognized text back onto the image.
 
-✨ Features
+# ✨ Features
 
   .Text Detection and Reading: Uses EasyOCR to accurately read text from images.
 
@@ -12,14 +12,14 @@ This project is a simple demonstration of how to use the EasyOCR and OpenCV (cv2
 
   .Image Display: Shows the final annotated image in a separate window.
 
-⚙️ Prerequisites
+# ⚙️ Prerequisites
 
 You need to have both the OpenCV and EasyOCR libraries installed. You can install them easily using pip:
 Bash
 
 pip install opencv-python easyocr
 
-📝 How to Use
+# 📝 How to Use
 
   1.Save the Code: Save the provided code into a Python file (e.g., ocr_highlight.py).
 
@@ -34,7 +34,7 @@ pip install opencv-python easyocr
 
   A window will pop up showing the image with the detected and highlighted text. Press any key to close the window.
 
-🔍 Code Breakdown
+# 🔍 Code Breakdown
 
 Line ->	Description
 import cv2 ->	Imports the OpenCV library for image operations (reading, displaying, drawing).
